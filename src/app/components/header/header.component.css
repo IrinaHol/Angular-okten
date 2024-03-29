@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: yellow;
+  font-size: 27px;
+  height: 60px;
+}
+
+.container a{
+  text-decoration: none;
+  color: black;
+}
+
+.container a[class='active'] {
+  color: red;
+}
