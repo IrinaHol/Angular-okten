@@ -1,14 +1,14 @@
 import {Component, OnInit} from '@angular/core';
 import {IPost} from "../../../interfaces";
 import {PostService} from "../../../services/post.service";
-import {PostComponent} from "../post/post.component";
+// import {PostComponent} from "../post/post.component";
 import {NgForOf} from "@angular/common";
 
 @Component({
   selector: 'app-posts',
   standalone: true,
   imports: [
-    PostComponent,
+    // PostComponent,
     NgForOf
   ],
   templateUrl: './posts.component.html',
